@@ -1,0 +1,63 @@
+/*
+Theme Name: VThokies Woo Child
+Theme URI: http://example.com/storefront-child/
+Description: WooCommerce child theme
+Author: Your Name
+Template:   storefront
+Author URI: http://example.com
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+#site-navigation,
+.home .gform_heading {
+	display: none;
+}
+.storefront-breadcrumb {
+	display: none;
+}
+header.entry-header {
+	display: none;
+}
+.home h2 {
+	font-size: 2rem;
+	text-align: center;
+}
+/* Had to place this in customizer, won't work here */
+.site-search {
+	display: none;
+}
+.home ul#site-header-cart {
+	display: none !important;
+}
+header#masthead {
+	margin-bottom: 0;
+}.site-branding,
+.page-description {
+	text-align: center;
+	font-weight: 600;
+}
+.entry-content h1 {
+	text-align: center;
+	font-weight: 600;
+}
+.home .upload-text h4 {
+	font-weight: 600;
+}
+.home .upload-text {
+	border-left: 1px solid black;
+	padding-left: 3rem;
+	font-size: 1rem;
+}
+.home img.custom-logo {
+	max-width: 200px;
+}
+.footer-widgets {
+	background: #efefef;
+}
+.footer-widgets h4  {
+	margin-bottom:.75rem !important;
+}
+.footer-widgets .widget {
+	margin-bottom: 0;
+}
